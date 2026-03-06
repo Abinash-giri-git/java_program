@@ -23,6 +23,6 @@ public class GitTest {
         System.out.println("Time taken by StringBuilder: " + builderTime + " ns");
 
         System.out.println("Reverse using StringBuffer: " + revBuffer);
-        System.out.println("Time taken by StringBuffer: " + bufferTime + " ns");
+        System.out.println("Time taken by StringBuffer is too late: " + bufferTime + " ns");
     }
 }
